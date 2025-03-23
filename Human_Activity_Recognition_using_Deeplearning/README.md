@@ -10,8 +10,8 @@
 
 # Results
 
-After training, we get the results for both models: GRU and LSTM. See table 4
-# Table 4: LSTM and GRU Model Performance
+After training, we get the results for both models: GRU and LSTM. See table below
+# Table : LSTM and GRU Model Performance
 
 | Model | Trainable Parameters | Validation Accuracy |    Test Accuracy    |
 |-------|----------------------|---------------------|---------------------|
