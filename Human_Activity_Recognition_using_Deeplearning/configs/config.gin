@@ -1,0 +1,44 @@
+# Architectures
+lstm_like.lstm_units = 110
+lstm_like.n_blocks = 1
+lstm_like.dense_units = 142
+lstm_like.dropout_rate_lstm_block = 0.5284792057617806
+lstm_like.dropout_rate_dense_layer = 0.4556337159043404
+
+gru_like.gru_units = 123
+gru_like.n_blocks = 1
+gru_like.dense_units = 147
+gru_like.dropout_rate_gru_block = 0.24281728628177796
+gru_like.dropout_rate_dense_layer = 0.4748279166645684
+
+# Training for lstm_like (40)
+#Trainer.batch_size = 128
+#Trainer.total_epochs = 45
+#Trainer.use_polyloss=True
+#Trainer.poly_loss_alpha=0.6918303340621951
+#Trainer.use_rdrop=True
+#Trainer.rdrop_alpha= 0.3813086395391919
+
+# Training for gru_like (48)
+Trainer.batch_size = 128
+Trainer.total_epochs = 50
+Trainer.use_polyloss=True
+Trainer.poly_loss_alpha=0.47538427115393167
+Trainer.use_rdrop=True
+Trainer.rdrop_alpha=0.454361661063531
+
+# Input pipeline
+load.name = 'HAPT'
+load.data_dir = '/home/data/HAPT_dataset/RawData'
+load.labels_file = '/home/data/HAPT_dataset/RawData/labels.txt'
+load.batch_size = 128
+
+# Metrics
+metrics.ConfusionMatrix.num_classes = 12
+metrics.ConfusionMatrix.name = "confusion_matrix"
+metrics.ConfusionMatrix.labels_name = ['walking', 'walking_upstairs', 'walking_downstairs',
+                                        'sitting', 'standing', 'laying', 'stand-sit',
+                                       'sit-stand', 'sit-lie', 'lie-sit', 'stand-lie', 'lie-stand']
+metrics.ConfusionMatrix.save_path = 'DL_LAB_HAPT/confusion_matrix/cm.png'
+
+
