@@ -1,2 +1,2 @@
 # AI
-Sharing my knowledge in Deep learning area through some of the projects i did
+Demonstrating my understanding of deep learning by implementing research papers and developing applied projects based on core concepts in the field.
