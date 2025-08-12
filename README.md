@@ -10,4 +10,4 @@ This repo contain following informations:
  * Diabetic retinopathy detection
 
 ### Note : 
-there other public repo specifically for Generative AI and Signal Processing topics 
+there are other repo specifically for Generative AI and Signal Processing topics 
