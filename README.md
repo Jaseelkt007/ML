@@ -1,8 +1,8 @@
-# 🤖 Machine Learning & Deep Learning Fundamentals
+# Machine Learning & Deep Learning Fundamentals (For Educational Purpose)
 
 A comprehensive educational repository covering fundamental concepts and implementations in Machine Learning, Deep Learning, Computer Vision, and Reinforcement Learning. This repository serves as a learning resource for anyone interested in understanding AI/ML from the ground up.
 
-## 📚 Table of Contents
+## Table of Contents
 
 - [Overview](#overview)
 - [Repository Structure](#repository-structure)
@@ -10,15 +10,12 @@ A comprehensive educational repository covering fundamental concepts and impleme
 - [Deep Learning](#deep-learning)
 - [Computer Vision](#computer-vision)
 - [Reinforcement Learning](#reinforcement-learning)
+- [Generative Models](#Generative-models)
 - [Research Paper Implementations](#research-paper-implementations)
 - [Projects](#projects)
 - [Related Repositories](#related-repositories)
 
-## 🎯 Overview
-
-This repository contains implementations of fundamental machine learning and deep learning algorithms built from scratch, along with practical projects and research paper implementations. Each implementation includes detailed explanations and code to help you understand the underlying concepts.
-
-## 📂 Repository Structure
+## Repository Structure
 
 ```
 ML/
@@ -26,13 +23,13 @@ ML/
 ├── Deep learning/             # Neural network architectures
 ├── Computer_vision_Topics/    # CV algorithms and techniques
 ├── Reinforcement learning/    # RL algorithms and methods
-├── GAN - Generative Adversarial Network/
+├── Generative_models/         # GAN / Diffision based algorithms
 ├── Human_Activity_Recognition_using_Deeplearning/
 ├── Diabetic_retinopathy_detection/
-└── Research paper implementations (Transformer, Seq2Seq, YOLOv1, ViT)
+└── Research paper implementations (Seq2Seq, Seq2Seq_withAttention ,Transformer, GANs,YOLOv1, ViT)
 ```
 
-## 🤖 Machine Learning
+## Machine Learning
 
 Implementation of classical machine learning algorithms from scratch:
 
@@ -41,23 +38,14 @@ Implementation of classical machine learning algorithms from scratch:
 - **Logistic Regression** - Linear classification model
 - **AdaBoost** - Ensemble learning method
 
-Each implementation includes:
-- Mathematical foundations
-- Step-by-step code walkthrough
-- Practical examples and visualizations
-
-## 🧠 Deep Learning
+## Deep Learning
 
 Neural network architectures implemented from scratch:
+- Feedforward Neural Networks (FNN)
+- Convolutional Neural Networks (CNN)
+- Recurrent Neural Networks (RNN)
 
-### Feedforward Neural Networks (FNN)
-- Basic architecture and backpropagation
-### Convolutional Neural Networks (CNN)
-- Basic architecture 
-### Recurrent Neural Networks (RNN)
-- Vanilla RNN
-
-## 👁️ Computer Vision
+## Computer Vision
 
 Classical computer vision algorithms and techniques:
 
@@ -67,7 +55,7 @@ Classical computer vision algorithms and techniques:
 - **Interest Point Detection**
 - **Hough Transform** - Line and shape detection
 
-## 🎮 Reinforcement Learning
+## Reinforcement Learning
 
 Reinforcement learning algorithms and methods:
 
@@ -81,9 +69,9 @@ Reinforcement learning algorithms and methods:
   - Policy Gradient Methods
   - Actor-Critic algorithms
 
-## 📄 Research Paper Implementations
+## Research Paper Implementations
 
-State-of-the-art models implemented from research papers:
+Implementation of some of the famous Research papers for educational purpose:
 
 ### 1. **Sequence-to-Sequence (Seq2Seq) Translation**
    - Basic Seq2Seq architecture
@@ -116,23 +104,16 @@ State-of-the-art models implemented from research papers:
    - Training dynamics
    - Image generation
 
-## 🚀 Projects
+## Classification Projects (Tensorflow)
 
 ### 1. Human Activity Recognition
 - Human activity classification like running, walking, sitting, etc..
-- Time series data processing
+- Time series data processing , classification using Recurrent Neural Network
 
 ### 2. Diabetic Retinopathy Detection
 - Medical image classification
 - High resolution image preprocessin
-- CNN-based diagnosis
+- Classification using Convolutional Neural Network
 
-### 3. Kaggle Projects
-- Competition solutions - titanic
-
-## 🔗 Related Repositories
-
-Explore more specialized topics in my other educational repositories:
-
-- **[Generative AI Basics](https://github.com/Jaseelkt007/Generative_AI_basics)** - Comprehensive guide to generative AI, LLMs, diffusion models, and modern generative techniques
-- **[Signal Processing](https://github.com/Jaseelkt007/Signal_processing)** - Fundamentals of signal processing, eg: Fourier Transform, JPEG compression, etc.
+### 3. Titanic Kaggle comp
+- Classification using Adaboost
