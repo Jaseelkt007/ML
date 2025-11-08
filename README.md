@@ -69,6 +69,10 @@ Reinforcement learning algorithms and methods:
   - Policy Gradient Methods
   - Actor-Critic algorithms
 
+## Generative Models
+- GAN models
+- Diffusion Models
+
 ## Research Paper Implementations
 
 Implementation of some of the famous Research papers for educational purpose:
